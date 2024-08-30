@@ -336,7 +336,6 @@ $row_rsblog = mysqli_fetch_assoc($rsblog);
 $totalRows_rsblog = mysqli_num_rows($rsblog);
 
 ?>
-
 Blog detail:
  	<!DOCTYPE html>
 <html>
@@ -554,7 +553,6 @@ $rsproduct = mysql_query($query_rsproduct, $jeepcon) or die(mysql_error());
 $row_rsproduct = mysql_fetch_assoc($rsproduct);
 $totalRows_rsproduct = mysql_num_rows($rsproduct);*/
 ?>
-
 Database:
 	<?php 
 $hostname = "localhost";
